@@ -1,0 +1,63 @@
+@charset "UTF-8";
+.dri{
+
+	width: 350px;
+	height: 800px;
+	 background: rgba(0,0,0,0.9);
+	 opacity: 0.5;
+	
+	margin: bottom 40px 10px;
+	align-item: left;
+	padding-top: 60px;
+	padding-left: 18px;	
+}
+ 
+
+				
+
+body{
+	background-image: url("https://cdn.wallpapersafari.com/55/76/I7kZ6W.jpg");
+	
+	background-size:100%;
+	 backdrop-filter: blur(70);
+}
+
+.btn{
+	background-color:blue;
+	color:black;
+	width: 250px;
+	height: 50px;
+	font-size: large;
+	font-weight: bold;
+	border-radius: 10px;
+	
+	transition: all 0.5s;
+  cursor: pointer;
+  margin: 36px;
+  box-shadow: 0 10px 20px -8px rgba(10, 451, 42,.7);
+  color: white;
+ 	
+}
+.btn:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;  
+  top: 14px;
+  right: -20px;
+  transition: 0.5s;
+}
+.btn:hover{
+  padding-right: 24px;
+  padding-left:8px;
+} 
+.btn:hover:after {
+  opacity: 1;
+  right: 10px;
+}
+a{
+	text-decoration: none;
+	width: 250px;
+	height: 50px;
+	
+
+}

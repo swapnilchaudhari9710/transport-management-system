@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+.dir{
+	
+	width: 600px;
+	background-color:red;
+	height: 400px;
+	
+	
+	
+}
+form {
+	display: inline-flex;
+	flex-wrap: wrap;
+	
+}
+input {
+	width: 140px;
+    margin: 5px;
+	
+}
+
+.first{
+	background-color:white;
+	height: 200px;
+	margin: 9px
+	
+}
+
+.secound{
+	background-color:blue;
+	height: 200px;
+	display: inline-block;
+	
+	
+}
